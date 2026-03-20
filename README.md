@@ -1,4 +1,4 @@
-# 🎛️ FinoDSP - Real-Time Multiband Audio Engine & AI Calibrator
+#  FinoDSP - Real-Time Multiband Audio Engine & AI Calibrator
 
 > **Status:** Closed-source commercial project. Currently in final preparations for release on the Steam Store.
 
@@ -7,7 +7,7 @@ FinoDSP is a high-performance, real-time multiband audio processing engine writt
 ![FinoDSP](https://github.com/user-attachments/assets/962f565d-9969-42a9-9b2e-1cc633cbd356)
 
 
-## 🎚️ The Core: Real-Time DSP Engine (C++)
+##  The Core: Real-Time DSP Engine (C++)
 
 The heart of FinoDSP is a highly optimized audio thread built to process live system audio without causing buffer underruns or CPU spikes. 
 * **Lock-free Audio Routing:** Utilizes `PortAudio` to capture system audio via virtual cables, processing it block-by-block and outputting it directly to the hardware DAC with zero perceivable latency.
