@@ -6,7 +6,6 @@ FinoDSP is a high-performance, real-time multiband audio processing engine writt
 
 ![FinoDSP](https://github.com/user-attachments/assets/962f565d-9969-42a9-9b2e-1cc633cbd356)
 
-
 ##  The Core: Real-Time DSP Engine (C++)
 
 The heart of FinoDSP is a highly optimized audio thread built to process live system audio without causing buffer underruns or CPU spikes. 
