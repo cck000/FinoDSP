@@ -11,7 +11,7 @@ FinoDSP is a high-performance, real-time multiband audio processing engine writt
 The heart of FinoDSP is a highly optimized audio thread built to process live system audio without causing buffer underruns or CPU spikes. 
 * **Lock-free Audio Routing:** Utilizes `PortAudio` to capture system audio via virtual cables, processing it block-by-block and outputting it directly to the hardware DAC with zero perceivable latency.
 * **Granular Multiband Control:** The engine splits the audio into 4 distinct frequency bands (Sub, Bass, Mid, High). Each band features 7 independent parameters: *Gain, Drive, Mix, Character, Saturation, Drive Sensitivity, and Mix Sensitivity*, plus a global *Space* parameter (29 parameters in total).
-* **Extreme Efficiency:** The entire DSP pipeline, alongside the graphical interface, consumes an average of only **up to 2.0% of CPU(Zen 3 Ryzen 5) ** on standard consumer hardware.
+* **Extreme Efficiency:** The entire DSP pipeline, alongside the graphical interface, consumes an average of only **up to 2.0%** of CPU (Zen 3 Ryzen 5)  on standard consumer hardware.
 * **Hardware-Accelerated UI:** Custom graphical interface built with `Dear ImGui` and `GLFW`, featuring a retro-hardware aesthetic, real-time VU meters, and custom control widgets.
 * **Commercial DRM:** Fully integrated with the `Steamworks C++ SDK` for license verification.
 
